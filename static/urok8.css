@@ -1,0 +1,99 @@
+p::first-letter{
+    color: blue;
+}
+
+
+p::first-line{
+    background-color: blueviolet;
+}
+
+p::selection{
+    background-color: violet;
+    color: white;
+}
+
+.block{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.block::before{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    display: inline-block;
+}
+
+.block::after{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    display: inline-block;
+}
+
+.button{
+    background-color: orangered;
+    color: white;
+    padding: 20px 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color:orangered;
+    background-color: transparent;
+    transition: .5s all;
+}
+
+.button:active{
+    background-color: gray;
+    transition: 0s;
+    color: #fff;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: green;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+}
+
+input::placeholder{
+    color: red;
+}
+
+input:focus{
+    border-color: red;
+}
+
+.item{
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    margin: 5px;
+}
+
+.item:first-child{
+    background-color: aqua;
+}
+
+.item:last-child{
+    background-color: green;
+}
+
+.item:nth-child(even){
+    background-color: violet;
+}

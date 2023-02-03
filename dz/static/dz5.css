@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614625733_41-p-fon-dereva-dlya-fotoshopa-80.jpg);
+    
+}
+
+.container{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text{
+    background-color: blue;
+    color: gold;
+    width: 600px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.grey__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.serui{
+    background-color: grey;
+    height: 100px;
+    width: 394px;
+    text-align: center;
+}
+
+.red__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.red__text{
+    background-color: red;
+    height: 100px;
+    width: 290px;
+    color: #fff;
+}
+
+.green__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green__text{
+    color: #fff;
+    background-color: green;
+    width: 92%;
+    height: 70px;
+}

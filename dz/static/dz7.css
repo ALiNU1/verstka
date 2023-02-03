@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+.wrapper{
+    display: flex;
+}
+
+.instagram{
+    width: 200px;
+    height: 100px;
+    margin-top: 110px;
+}
+
+.register{
+    border: 2px solid grey;
+    padding: 10vh;
+}
+
+.instagram__photo{
+    height: 840px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.first__input{
+    
+}

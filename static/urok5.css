@@ -1,0 +1,26 @@
+*{ 
+    box-sizing: border-box; 
+    padding: 0; 
+     margin:0; 
+  
+ } 
+ .flex{ 
+ height: 100vh; 
+ border: 10px solid greenyellow; 
+ display: flex; 
+ justify-content: center; 
+ column-gap: 50px; 
+ align-items: center; 
+ /* flex-direction: column;  */
+ row-gap: 20px; 
+ flex-wrap:wrap; 
+  
+  
+ } 
+ .item{ 
+  background-color: aqua; 
+  height: 150px; 
+  width: 150px; 
+  border: 5px solid red; 
+
+ }

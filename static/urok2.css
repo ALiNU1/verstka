@@ -1,0 +1,18 @@
+.title{
+    color:red;
+    text-align: center;
+    background-color: aqua;
+}
+
+.text{
+    color: green;
+}
+
+#text{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}

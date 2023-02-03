@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        display: flex;
+    }
+    h1{
+        color: #fff;
+    }
+    .first{
+        height: 300px;
+        width: 300px;
+        background-color: orangered;
+    }
+    
+    .first__a{
+        height: 65px;
+        width: 150px;
+        margin-left: 50px;
+        background-color: greenyellow;    
+    }
+    
+    .first__b{
+        height: 65px;
+        width: 150px;
+        margin-left: 50px;
+        background-color: aqua; 
+    }
+    
+    .second{
+        height: 300px;
+        width: 300px;
+        background-color: greenyellow;
+    }   
+    .third{
+        height: 300px;
+        width: 300px;
+        background-color: aqua;
+    }
